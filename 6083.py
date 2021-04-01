@@ -5,4 +5,4 @@ for i in range(a):
       print('{} {} {}'.format(i,j,k))
 print(a*b*c)
 
-#print(f'{i} {j} {k}') -> python 3.6
+#print(f'{i} {j} {k}') -> python 3.6 
