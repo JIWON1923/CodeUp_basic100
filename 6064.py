@@ -1,4 +1,2 @@
 a, b, c = map(int, input().split())
-x = a if a < b else b
-y = x if x < c else c
-print(y)
+print(a if a < b and a < c else b if b < c else c)
