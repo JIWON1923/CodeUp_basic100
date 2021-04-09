@@ -1,6 +1,6 @@
-while(1):
+a = 1
+while (a != 0):
   a = int(input())
-  if a != 0:
-    print(a)
-  else:
+  if a == 0:
     break
+  print(a)
