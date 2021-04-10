@@ -1,6 +1,8 @@
 a = int(input())
-result, i = 0, 0
-while(result < a):
-  i += 1
+result = 0
+for i in range(a+1):
+  if result >= a:
+    break
   result += i
-print(result)
+
+print(a if a < 3 else result)
