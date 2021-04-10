@@ -1,7 +1,6 @@
+result, i = 0, 0
 a = int(input())
-n = 0
-for i in range(1,a):
-  n += i
-  if(n >= a ):
-    print(i)
-    break
+while(result < a):
+  i += 1
+  result += i
+print(i)
