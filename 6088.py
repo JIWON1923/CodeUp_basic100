@@ -1,2 +1,6 @@
 a, d, n = map(int, input().split())
-print(a+d*(n-1))
+i, result = 1, a
+while ( i< n ):
+  result += d
+  i += 1
+print(result)
