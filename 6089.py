@@ -1,2 +1,5 @@
 a, r, n = map(int, input().split())
-print(a*(r**(n-1)))
+result = a
+for i in range(n-1):
+  result *= r
+print (result)
