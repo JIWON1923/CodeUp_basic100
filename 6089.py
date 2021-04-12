@@ -1,5 +1,6 @@
 a, r, n = map(int, input().split())
-result = a
-for i in range(n-1):
+i, result = 1, a
+while ( i < n ):
   result *= r
-print (result)
+  i += 1
+print(result)
