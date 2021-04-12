@@ -1,6 +1,5 @@
 a, d, n = map(int, input().split())
-i, result = 1, a
-while ( i< n ):
+result = a
+for i in range(n-1):
   result += d
-  i += 1
 print(result)
