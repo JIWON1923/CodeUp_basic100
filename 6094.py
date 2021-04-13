@@ -1,3 +1,7 @@
 num = int(input())
 a = list(map(int, input().split()))
-print(min(a))
+result = a[0]
+for i in a:
+  if result > i:
+    result = i
+print(result)
