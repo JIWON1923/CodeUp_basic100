@@ -1,3 +1,3 @@
 num = int(input())
-a = list(map(int, input().split()))
-print(" ".join(repr(i) for i in reversed(a)))
+a = list(map(str, input().split())) 
+print (' '.join(reversed(a)))
